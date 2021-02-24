@@ -5,4 +5,4 @@
 ###### 如果你有任何疑問，可以[在這裡](https://github.com/charlie-moomoo/CharlieHandwriting/discussions/categories/%E5%95%8F%E8%88%87%E7%AD%94 "討論區")發問哦！
 ***
 &copy;2021 CharlieHandwriting
-<iframe class="lc-margin-top-64 lc-margin-bottom-32 lc-mobile" data-v-b66e9a5a="" frameborder="0" height="200" src="https://button.like.co/in/embed/charlie-moomoo/button?referrer=CharlieHandwriting"> </iframe>
+<iframe frameborder="0" height="200" src="https://button.like.co/in/embed/charlie-moomoo/button?referrer=CharlieHandwriting"> </iframe>
