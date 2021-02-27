@@ -2,7 +2,11 @@
   font-family: CharlieHandwriting; 
   src: url(CharlieHandwriting.ttf); 
 }
-charliewrite {
+charliewrite .title{
+  font-family:CharlieHandwriting;
+  font-size:100px;
+ }
+charliewrite .text{
   font-family:CharlieHandwriting;
   font-size:50px;
  }
