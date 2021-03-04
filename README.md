@@ -5,9 +5,10 @@
 ###### 如果你有任何疑問，可以在[這裡](https://github.com/charlie-moomoo/CharlieHandwriting/discussions/categories/%E5%95%8F%E8%88%87%E7%AD%94 "討論區")或[這裡](https://charliehandwriting.flarum.cloud/t/q-and-a "討論區")發問哦！
 ***
 <iframe
-class="lc-margin-top-64 lc-margin-bottom-32 lc-mobile" data-v-b66e9a5a=""
-frameborder="0"
-height="200"
-src="https://button.like.co/in/embed/charlie-moomoo/button?referrer=CharlieHandwriting"
+class=lc-margin-top-64 lc-margin-bottom-32 lc-mobile
+data-v-b66e9a5a=
+frameborder=0
+height=200
+src=https://button.like.co/in/embed/charlie-moomoo/button?referrer=CharlieHandwriting
 />
 &copy;2021 CharlieHandwriting
