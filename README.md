@@ -4,7 +4,7 @@
 ###### [在網頁上使用這個字型](https://charlie-moomoo.github.io/CharlieHandwriting "Charlie手寫體")
 ###### 如果你有任何疑問，可以在[這裡](https://github.com/charlie-moomoo/CharlieHandwriting/discussions/categories/%E5%95%8F%E8%88%87%E7%AD%94 "討論區")或[這裡](https://charliehandwriting.flarum.cloud/t/q-and-a "討論區")發問哦！
 ## 幫我按個LikeCoin吧！
-<a href="https://button.like.co/in/embed/charlie-moomoo/button?referrer=CharlieHandwriting"><img src="https://urlscan.io/liveshot/?width=400&height=200&url=https://button.like.co/in/embed/charlie-moomoo/button?referrer=CharlieHandwriting" />
+<a href="javascript: void(0)" onclick="window.open(' https://button.like.co/in/embed/charlie-moomoo/button?referrer=CharlieHandwriting ', 'LikeCoin, config='height=200,width=400');"><img src="https://urlscan.io/liveshot/?width=400&height=200&url=https://button.like.co/in/embed/charlie-moomoo/button?referrer=CharlieHandwriting" />
 </a>
 ***
 &copy;2021 CharlieHandwriting
