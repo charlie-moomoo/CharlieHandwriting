@@ -1,0 +1,15 @@
+@font-face { 
+  font-family: CharlieHandwriting; 
+  src: url(CharlieHandwriting.ttf); 
+}
+charliewrite-title{
+  font-family:CharlieHandwriting;
+  font-size:100px;
+  letter-spacing:-20px;
+ }
+charliewrite{
+  font-family:CharlieHandwriting;
+  font-size:50px;
+  letter-spacing:-10px;
+ }
+
