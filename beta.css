@@ -1,14 +1,6 @@
 @font-face { 
   font-family: CharlieHandwriting; 
   src: url(CharlieHandwriting.ttf); 
-  unicode-range: U+0080-00FF;
-  letter-spacing: -25%
-}
-@font-face { 
-  font-family: CharlieHandwriting; 
-  src: url(CharlieHandwriting.ttf); 
-  unicode-range: U+4E00-2FA1F, U+3100-312F;
-  letter-spacing: -20%
 }
 charliewrite-title{
   font-family:CharlieHandwriting;
