@@ -7,6 +7,6 @@
 <a href="https://charliewrite.page.link/likecoin" target="_blank"><img src="https://charliewrite.page.link/likecoin-screenshot" />
 </a>
 ***
-&copy;2022 CharlieHandwriting
+&copy;2025 CharlieHandwriting
  
 
