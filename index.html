@@ -1,49 +1,23 @@
+<!doctype html>
 <head>
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   <link href="beta.css" rel="stylesheet" type="text/css" />
   <style type="text/css">
-    #up {
-      width: 360px;
-      height: 80px;
-      text-align: center;
-      line-height: 80px;
-      font-size: 50px;
-      color: #000000;
-      font-weight: bold;
-      background-color: #ffffff;
-    }
-    #left {
-      width: 50%;
-      float: left;
-      height: 280px;
-      text-align: center;
-      line-height: 280px;
-      font-size: 50px;
-      color: #000000;
-      font-weight: bold;
-      background-color: #ffffff;
-    }
-    #right {
-      width: 50%;
-      height: 280px;
-      text-align: center;
-      line-height: 280px;
-      font-size: 50px;
-      color: #000000;
-      font-weight: bold;
-      background-color: #ffffff;
-      float: left;
-    }
+    #up,
     #down {
-      width: 360px;
-      height: 80px;
       text-align: center;
-      line-height: 80px;
       font-size: 50px;
       color: #000000;
       font-weight: bold;
       background-color: #ffffff;
+    }
+    .code {
+      width: 100%;
+      height: 42px;
+      margin: 0;
+      overflow-y: scroll;
+      font-family: monospace;
     }
   </style>
   <title>Charlie手寫體</title>
@@ -54,24 +28,16 @@
     <charliewrite>歡迎使用Charlie手寫體！</charliewrite>
   </div>
   <div id="left">
-    <charliewrite>如果想在網頁內使用，請在網頁頂端加上以下代碼:</charliewrite
-    ><br />
-    <input
-      style="width: 201px; height: 100px"
-      type="text"
-      disabled="disabled"
-      value='&lt;link href="//charlie-moomoo.github.io/CharlieHandwriting/font.css" rel="stylesheet" type="text/css"&gt;'
-    />
-    <br /><charliewrite
-      >將要套用字體的文字用&lt;p&gt;標籤包起來，並且將style屬性設為font-family:
-      CharlieHandwriting，讓&lt;p&gt;標籤變成這樣:</charliewrite
-    ><br />
-    <input
-      style="width: 201px; height: 100px"
-      type="text"
-      disabled="disabled"
-      value='&lt;p style="font-family: CharlieHandwriting"&gt&lt;/p&gt;'
-    /><br />
+    <charliewrite>如果想在網頁內使用，請在網頁頂端加上以下代碼:</charliewrite>
+    <pre class="code">
+&lt;link href="//charlie-moomoo.github.io/CharlieHandwriting/font.css" rel="stylesheet" type="text/css"&gt;</pre
+    >
+    <charliewrite
+      >將要套用字體的文字之font-family樣式屬性設為CharlieHandwriting，讓標籤變成像這樣:</charliewrite
+    >
+    <pre class="code">
+&lt;p style="font-family: CharlieHandwriting"&gt&lt;/p&gt;</pre
+    >
     <charliewrite>這樣，字體就套用完成了！</charliewrite>
   </div>
   <div id="right">
@@ -105,7 +71,7 @@
       document.write(
         "<charliewrite>&copy;" +
           Today.getFullYear() +
-          "<br/>CharlieHandwriting</charliewrite>",
+          "&nbsp;CharlieHandwriting</charliewrite>",
       );
     </script>
   </div>
