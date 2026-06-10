@@ -1,12 +1,12 @@
-@font-face { 
-  font-family: CharlieHandwriting; 
-  src: url(CharlieHandwriting.ttf); 
+@font-face {
+  font-family: CharlieHandwriting;
+  src: url(CharlieHandwriting.ttf);
 }
-charliewrite-title{
-  font-family:CharlieHandwriting;
-  font-size:100px;
- }
-charliewrite{
-  font-family:CharlieHandwriting;
-  font-size:50px;
- }
+charliewrite-title {
+  font-family: CharlieHandwriting;
+  font-size: 100px;
+}
+charliewrite {
+  font-family: CharlieHandwriting;
+  font-size: 50px;
+}
