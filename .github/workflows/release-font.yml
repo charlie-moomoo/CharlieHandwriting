@@ -1,0 +1,61 @@
+name: Release Font on Update
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'CharlieHandwriting.ttf'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install FontTools
+        run: pip install fonttools
+
+      - name: Extract Font Version
+        id: get_version
+        run: |
+          VERSION=$(python -c "
+          from fontTools.ttLib import TTFont
+          font = TTFont('CharlieHandwriting.ttf')
+          # 5 is the Name ID for Version string in the name table
+          version_str = font['name'].getDebugName(5)
+          if version_str:
+              # Clean up common prefixes like 'Version ' if present
+              clean_version = version_str.replace('Version ', '').strip()
+              print(clean_version)
+          else:
+              print('unknown')
+          ")
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          echo "Extracted Version: $VERSION"
+
+      - name: Prepare Versioned File
+        run: cp CharlieHandwriting.ttf "CharlieHandwriting_${{ env.VERSION }}.ttf"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: "${{ env.VERSION }}"
+          name: "${{ env.VERSION }}"
+          draft: false
+          prerelease: false
+          make_latest: true
+          files: "CharlieHandwriting_${{ env.VERSION }}.ttf"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
